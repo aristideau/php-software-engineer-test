@@ -53,7 +53,6 @@ FROM customer_occupation";
 		$res->execute(array('occupation_name' => $_GET['occupation_name']));
 	}	
 ?>	
-
 <h2>Customer List</h2>
 <table>
 	<tr>
