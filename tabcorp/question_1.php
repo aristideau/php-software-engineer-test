@@ -22,7 +22,7 @@ $sql = "SELECT
 	customer.first_name, 
 	customer.last_name,
 	IF(customer_occupation.occupation_name IS NULL, 'un-employed', customer_occupation.occupation_name) AS occupation_name 
-FROM customer   
+FROM customer 
 LEFT OUTER JOIN customer_occupation 
 ON customer.customer_occupation_id = customer_occupation.customer_occupation_id";
 
