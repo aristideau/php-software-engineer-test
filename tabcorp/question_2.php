@@ -124,4 +124,3 @@ $G->deposit(100);
 echo $B->get_balance().'<br>';
 echo $S->get_balance().'<br>';
 echo $G->get_balance().'<br>';
-
